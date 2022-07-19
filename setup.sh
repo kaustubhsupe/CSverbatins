@@ -9,5 +9,6 @@ echo "\
 [server]\n\
 headless = true\n\
 enableCORS=false\n\
+enableWebsocketCompression = true\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
